@@ -9,20 +9,19 @@ Figure 1
 
 By calculating the kinetic and potential energies of the system, we can construct the Lagrangian.
 
-![alt text](https://wikimedia.org/api/rest_v1/media/math/render/svg/2ec151d95ac6e7eb0bb11dadf1c39dac6b9514f0)
+Screen Shot 2021-09-01 at 7.26.07 AM<img width="504" alt="image" src="https://user-images.githubusercontent.com/43424403/131670894-041acb7f-c5b8-42b7-8fa3-fbe2966e1e8b.png">
 
 Adopting a substitution of coordinates, the above equation becomes:
 
-![alt text](https://user-images.githubusercontent.com/43424403/131668420-d726b42b-d655-485e-b563-68a8bc8becd3.png)
+Screen Shot 2021-09-01 at 7.26.12 AM<img width="536" alt="image" src="https://user-images.githubusercontent.com/43424403/131670924-67297bdd-fc62-4c56-91aa-ad5df670bfa4.png">
 
 Applying the Euler-Lagrange equation, we can obtain the generalized momenta for the first and second masses.
 
-![alt text](https://wikimedia.org/api/rest_v1/media/math/render/svg/d511d9e2eb6a41c02318bc469f6e94f7e2217f92)
+Screen Shot 2021-09-01 at 7.26.18 AM<img width="339" alt="image" src="https://user-images.githubusercontent.com/43424403/131670940-8205d4e2-8c6a-4b33-a4e2-0b5cf952dcef.png">
 
 Finally, inverting this equation gives us a coupled differential equation of the two masses, from where we can derive the trajectory of the system.
 
-![alt text](https://wikimedia.org/api/rest_v1/media/math/render/svg/ea30dfe9ba779902cca5f518a71567407e4974ce)
-
+Screen Shot 2021-09-01 at 7.26.26 AM<img width="265" alt="image" src="https://user-images.githubusercontent.com/43424403/131670962-09f84e09-59cb-4784-9efd-80affde8f174.png">
 
 ## Method
 
@@ -50,6 +49,15 @@ Figure 5: intial angle = 90
 <img width="582" alt="image" src="https://user-images.githubusercontent.com/43424403/131670047-bb98965e-3526-47b1-a370-22b633348e7d.png">
 Figure 6: intial angle = 180
 
+
 The blue line shows the predicted trajectory and the red line shows the actual trajectory by interating the differential equations. The two paths agree quite well and never diverges.
+
+## Discussion
+
+This project has shown that an LSTM approach works well with the chaotic double-pendulum system. Even with a very simple netowrk setup, the results converged quick and are robust to different initial conditions.
+
+Future work could be done by training on multiple initial conditions, using more sophisticated LSTMs, finetuning hyperparameters, and applying physical constraints to the model. Additionally, a similar approach should be attempted on different chaotic systems; for example, the Rossler system, encryption and decryption, and weather systems (Figure 7).
+
+<img width="271" alt="image" src="https://user-images.githubusercontent.com/43424403/131670783-a868990d-ad22-4218-9f76-51fda9741c0a.png">
 
 
