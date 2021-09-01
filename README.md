@@ -5,6 +5,7 @@ In this project, I aim to predict the trajectory of a chaotic double pendulum wi
 The double pendulum is a simple dynamical system with one pendulum attached to the end of the other pendulum. Its trajectory is shown in Figure 1.
 
 ![alt text](https://upload.wikimedia.org/wikipedia/commons/6/65/Trajektorie_eines_Doppelpendels.gif)
+
 Figure 1
 
 By calculating the kinetic and potential energies of the system, we can construct the Lagrangian.
