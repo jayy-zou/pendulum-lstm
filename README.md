@@ -9,19 +9,19 @@ Figure 1
 
 By calculating the kinetic and potential energies of the system, we can construct the Lagrangian.
 
-Screen Shot 2021-09-01 at 7.26.07 AM<img width="504" alt="image" src="https://user-images.githubusercontent.com/43424403/131670894-041acb7f-c5b8-42b7-8fa3-fbe2966e1e8b.png">
+<img width="504" alt="image" src="https://user-images.githubusercontent.com/43424403/131670894-041acb7f-c5b8-42b7-8fa3-fbe2966e1e8b.png">
 
 Adopting a substitution of coordinates, the above equation becomes:
 
-Screen Shot 2021-09-01 at 7.26.12 AM<img width="536" alt="image" src="https://user-images.githubusercontent.com/43424403/131670924-67297bdd-fc62-4c56-91aa-ad5df670bfa4.png">
+<img width="536" alt="image" src="https://user-images.githubusercontent.com/43424403/131670924-67297bdd-fc62-4c56-91aa-ad5df670bfa4.png">
 
 Applying the Euler-Lagrange equation, we can obtain the generalized momenta for the first and second masses.
 
-Screen Shot 2021-09-01 at 7.26.18 AM<img width="339" alt="image" src="https://user-images.githubusercontent.com/43424403/131670940-8205d4e2-8c6a-4b33-a4e2-0b5cf952dcef.png">
+<img width="339" alt="image" src="https://user-images.githubusercontent.com/43424403/131670940-8205d4e2-8c6a-4b33-a4e2-0b5cf952dcef.png">
 
 Finally, inverting this equation gives us a coupled differential equation of the two masses, from where we can derive the trajectory of the system.
 
-Screen Shot 2021-09-01 at 7.26.26 AM<img width="265" alt="image" src="https://user-images.githubusercontent.com/43424403/131670962-09f84e09-59cb-4784-9efd-80affde8f174.png">
+<img width="265" alt="image" src="https://user-images.githubusercontent.com/43424403/131670962-09f84e09-59cb-4784-9efd-80affde8f174.png">
 
 ## Method
 
